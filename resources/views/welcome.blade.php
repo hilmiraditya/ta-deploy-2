@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Production Lama
+                    Laravel Production Baru
                 </div>
 
                 <div class="links">
