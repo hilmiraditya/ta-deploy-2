@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Production Baru
+                    Laravel Production Baru Coba Lagi
                 </div>
 
                 <div class="links">
