@@ -32,7 +32,7 @@
 
 # EXPOSE 80
 
-FROM bkuhl/fpm-nginx:fpm-7_nginx-1
+FROM bkuhl/fpm-nginx:7.4.2
 
 WORKDIR /var/www/html
 
