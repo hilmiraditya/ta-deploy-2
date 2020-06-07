@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    sdsadsds
-    return view('welcome');
+    return view('percobaan');
     // return redirect('/home');
 });
 
