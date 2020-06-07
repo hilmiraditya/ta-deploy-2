@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Production Baru Coba Lagi
+                    Laravel Production Baru Coba Lagi Ini jam 3.05
                 </div>
 
                 <div class="links">
