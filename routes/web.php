@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,12 +11,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    // return view('welcome');
-    return view('percobaan');
-    // return redirect('/home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 
-Auth::routes();
+// Route::get('/notfound', function () {
+//     return view('notfound');
+// });
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'ShortLinkController@home');
+Route::get('/notfound', 'ShortLinkController@notFound');
+
+Route::post('/generateLink', 'ShortLinkController@store')->name('generate.shorten.link.post');
+//Route::get('/{link_pendek}', 'LinkController@accessLink');
+Route::get('/{code}', 'ShortLinkController@shortenLink')->name('shorten.link');
