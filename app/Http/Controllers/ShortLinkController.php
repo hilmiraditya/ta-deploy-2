@@ -9,7 +9,7 @@ class ShortLinkController extends Controller
 {
     public function home()
     {
-        return view('home2');
+        return view('home2')->with($data);
     }
 
     public function notFound()
