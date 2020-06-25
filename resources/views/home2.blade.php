@@ -9,7 +9,7 @@
                     <div class="row"> 
                         <div class="col-md-12"> 
                             <div class="slider-content_wrap"> 
-                                <h1 style="color:white;">ITS-Shortener new build latest version</h1> 
+                                <h1 style="color:white;">ITS-Shortener new build latest versions</h1> 
                                 <h5 style="color:white;">Link Shortener by DPTSI</h5>
                             </div> 
                         </div> 
