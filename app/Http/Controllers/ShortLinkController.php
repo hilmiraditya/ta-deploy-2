@@ -9,7 +9,7 @@ class ShortLinkController extends Controller
 {
     public function home()
     {
-        return view('home2');
+        return redirect('/');
     }
 
     public function notFound()
